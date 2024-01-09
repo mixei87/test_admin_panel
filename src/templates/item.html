@@ -1,0 +1,9 @@
+{% extends "list.html" %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Items count: {{ items_count }}</h3>
+    </div>
+</div>
+{{ super() }}
+{% endblock %}
